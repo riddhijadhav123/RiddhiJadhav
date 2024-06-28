@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html>
+<style>
+h2{
+text-align:center;
+transform: scaleX(3);
+transform: scaleY(2);
+position: relative;
+animation-name: example;
+animation-duration: 4s;
+animation-iteration-count: infinite;
+animation-direction: alternate;
+}
+@keyframes example {
+  0%   {color:red; left:0px; right:500px; }
+  25%  {color:yellow; }
+  50%  {color:blue; }
+  75%  {color:green; }
+  100% {color:red; left:500px; right:0px;}
+}
+
+div{
+text-align:center;
+transform: scaleX(4);
+transform: scaleY(2);
+}
+#V {
+width: 200px;
+transition: 10s;
+background:violet;
+}
+#V:hover {
+width:500px;
+}
+#I {
+width: 200px;
+transition: 10s;
+background:violet;
+}
+#I:hover {
+width:500px;
+}
+#B {
+width: 200px;
+transition: 10s;
+background:violet;
+}
+#B:hover {
+width:500px;
+}
+#G {
+width: 200px;
+transition: 10s;
+background:violet;
+}
+#G:hover {
+width:500px;
+}
+#Y {
+width: 200px;
+transition: 10s;
+background:violet;
+}
+#Y:hover {
+width:500px;
+}
+#O {
+width: 200px;
+transition: 10s;
+background:violet;
+}
+#O:hover {
+width:500px;
+}
+#R {
+width: 200px;
+transition: 10s;
+background:violet;
+}
+#R:hover {
+width:500px;
+}
+</style>
+<body>
+<h1><center>ASSIGNMENT 6</center></h1><br>
+<h2> RAINBOW<br>(This text is using transform (scaleX and scaleY) and animation)
+</h2><br>
+<h3>
+The different colours of a rainbow are together termed as "VIBGYOR". VIBGYOR stands for the following colours:</h3><br><br><br>
+<div>
+<ol>
+<li id="V">Violet</li>
+<li id="I" style=" background-color:indigo;">Indigo</li>
+<li id="B" style=" background-color:blue;">Blue</li>
+<li id="G" style=" background-color:green;">Green</li>
+<li id="Y" style=" background-color:yellow;">Yellow</li>
+<li id="O" style=" background-color:orange;">Orange</li>
+<li id="R" style=" background-color:red;">Red</li><br>
+</ol>
+</div>
+</h3>
+
+</body>
+</html>
