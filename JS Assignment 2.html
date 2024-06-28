@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head><h1>JS ASSIGNMENT 2</h1></head>
+<body>
+<label for="num"> Enter a decimal number upto five decimal places </label><br><br>
+<input type="text" id="num">
+<script type="text/Javascript" >
+
+function intnum(){
+var num1= parseFloat(document.getElementById("num").value);
+document.getElementById("hello").innerHTML=Math.round(num1);
+}
+function intnum1(){
+var num1= parseFloat(document.getElementById("num").value);
+document.getElementById("hello").innerHTML=num1.toFixed(1);
+}
+function intnum2(){
+var num1= parseFloat(document.getElementById("num").value);
+document.getElementById("hello").innerHTML=num1.toFixed(2);
+}
+function intnum3(){
+var num1= parseFloat(document.getElementById("num").value);
+document.getElementById("hello").innerHTML=num1.toFixed(3);
+}
+function intnum4(){
+var num1= parseFloat(document.getElementById("num").value);
+document.getElementById("hello").innerHTML=num1.toFixed(4);
+}
+function intnum10(){
+var num1= parseFloat(document.getElementById("num").value);
+document.getElementById("hello").innerHTML=num1.toFixed(10);
+}
+</script>
+<p id="hello"></p>
+<button type="button" onclick="intnum()">round upto nearest integer</button><br><br>
+<button type="button" onclick="intnum1()">round upto 1 decimal place</button><br><br>
+<button type="button" onclick="intnum2()">round upto 2 decimal place</button><br><br>
+<button type="button" onclick="intnum3()">round upto 3 decimal place</button><br><br>
+<button type="button" onclick="intnum4()">round upto 4 decimal place</button><br><br>
+<button type="button" onclick="intnum10()">round upto 10 decimal place</button><br><br>
+</body>
+</html>

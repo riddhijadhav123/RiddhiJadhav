@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html>
+<head><h1>JS ASSIGNMENT 3</h1></head>
+<h2> The lowest value in this array is:</h2>
+<p id="hello"></p>
+<script>
+const val = [10,25,5,36,2,96];
+document.getElementById("hello").innerHTML = min(val);
+function min(val) {
+return Math.min.apply(null, val);
+}
+</script>
+</body>
+</html>
